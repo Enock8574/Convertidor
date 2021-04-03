@@ -1,5 +1,5 @@
 import funciones
-print("----------*Enoc Carrera*---------")
+print("----------*Enoc Carrera ©2021*---------")
 menu = """
 Por favor escoja la opcion que desea realizar
 1.Convertir Galones a litros
@@ -12,15 +12,15 @@ Opcion:
 """
 conditional = True;
 while conditional == True:
+#op toma y transforma a entero el numero que el usuario ingresa en la consola
     op = int(input(menu))
     if op == 1:
 #Aqui Llamamos la funcion que tenemos en nuestro otro archivo
         funciones.Galones_Litros()
     elif op == 2:
-        print("Hola")
-
+        funciones.Libras_Kilogramos()
     elif op == 3:
-        print("Mi nombre es: Carlos")
+        funciones.C_F()
     elif op == 6:
         print("Hasta Luego. Gracias por usar nuestro software")
         break
