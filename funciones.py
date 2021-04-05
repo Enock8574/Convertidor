@@ -20,3 +20,17 @@ def C_F():
     #Formula
     Resultado = round((Celcius*9/5)+32, 1)
     print(f"{Resultado} °F")
+#Convertir Litros a galones
+def Litros_Galones():
+    print("Ingresa la cantidad de litros que desea convertir a galones \n")
+    Litros = int(input("L: "))
+    #Formula
+    Resultado = float(Litros*0.26417)
+    print(f": {Resultado} G")
+#Convertir Kilogramos a libras
+def Kilogramos_Libras():
+    print("Ingresa la cantidad de kilogramos que desea convertir a libras \n")
+    Kilogramos = int(input("Kg: "))
+    #Formula
+    Resultado = float(Kilogramos*2.2046)
+    print(f": {Resultado} L")

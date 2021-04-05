@@ -21,8 +21,13 @@ while conditional == True:
         funciones.Libras_Kilogramos()
     elif op == 3:
         funciones.C_F()
+    elif op == 4:
+        funciones.Litros_Galones()
+    elif op == 5:
+        funciones.Kilogramos_Libras()
     elif op == 6:
         print("Hasta Luego. Gracias por usar nuestro software")
+#break rompe el ciclo while para evitar que el ciclo se repita infinitamente
         break
     else:
         print("Estas funciones aun estan en desarrollo")
